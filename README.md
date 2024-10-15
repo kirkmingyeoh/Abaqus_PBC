@@ -6,3 +6,5 @@ This repository contains Python scripts to set up PBCs on an RVE in Abaqus. Crea
 Once the information is updated, run the Python script through Abaqus CAE > File > Run script. The script will apply the PBCs on the RVE. To deform the RVE, apply appropriate displacement loads on the following control points using Sets. The name of the Sets to control each PBC is described in the respective Python scripts. 
 
 Once done, the job can be submitted to Abaqus. 
+
+Do contact the author if any bugs are encountered. 
