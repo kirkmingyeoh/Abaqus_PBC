@@ -298,7 +298,7 @@ for i in range(len(EdgeBNodes)):
 
 # V3
 for i in range(3):
-    mdb.models[ModelName].Equation(name=str(InstanceName)+'-EdgeBT-'+str(i+1)+'-DOF-'+str(j+1),terms=(
+    mdb.models[ModelName].Equation(name=str(InstanceName)+'-V3-DOF-'+str(j+1),terms=(
         (-1.0,'V3',i+1),
         (1.0,'V2',i+1),
         (1.0,'V4',i+1),
